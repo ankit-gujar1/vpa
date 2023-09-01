@@ -6,13 +6,28 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Playfair+Display:ital,wght@0,500;1,500&display=swap');
-        </style> 
+      @import url('https://fonts.googleapis.com/css2?family=Anton&family=Arvo:wght@700&family=Lilita+One&family=Playfair+Display:ital,wght@0,500;1,500&display=swap');
+      .b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+    border-top-width: medium;
+    border-right-width: medium;
+    border-bottom-width: medium;
+    border-left-width: medium;
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+    </style>
   </head>
   <body>
     <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">
+          <img src="logo2-removebg-preview.png" alt="Bootstrap" width="160">
+        </a>
+    
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -46,7 +61,7 @@
         </div>
       </div>
     </nav>
-
+<!-- <br> -->
     <div id="carouselExample" class="carousel slide">
       
 
@@ -54,8 +69,8 @@
           <div class="carousel-item active">
             <img src="image.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption">
-              <h1 class="text-light text-justify fs-1" style="font-family: 'Arvo', serif;"><b>Vatsal Painting Art</b></h1>
-              <h6 class="text-light text-justify" style="margin-bottom: 5rem; font-family: 'Arvo', serif;">Get Your Home Decorated</h6>
+              <h1 class="text-light text-justify" style="font-family: 'Lilita One', sans-serif;font-size: calc(1.724rem + 1.5vw);"><b><span class="text-danger">Vatsal</span> Painting <span class="text-primary">Art</span></b></h1>
+              <h6 class="text-light text-justify" style="margin-bottom: 4.5rem; font-family: 'Lilita One', sans-serif;">-- Get Your Home<span class="text-danger"> Decorated</span> --</h6>
             </div>
           </div>
 
@@ -67,7 +82,10 @@
 
     </div>
     
-    <br><br>
+    <!-- <h1 class="b-example-divider">Nagpur's #1 Painting Service</h1> -->
+
+    <h1 class="lead text-center my-3">Nagpur's #1 Painting Service</h1>
+
     <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
